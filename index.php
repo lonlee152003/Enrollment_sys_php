@@ -23,7 +23,7 @@ session_start();
                                     <h2 id="logo" style="color: black;font-weight: bold"><a href="index.html">Enrollment system</a></h2>
                                     <nav id="nav">
                                         <ul>
-                                            <li><a href="#" class="button primary">Sign Up</a></li>
+                                            <li><a href="./contact.html" class="button primary"">Sign Up</a></li>
                                         </ul>
                                     </nav>
 				</header>
