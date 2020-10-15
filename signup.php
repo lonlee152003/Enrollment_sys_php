@@ -23,7 +23,7 @@ session_start();
                                     <h2 id="logo" style="color: black;font-weight: bold"><a href="index.html">Enrollment system</a></h2>
                                     <nav id="nav">
                                         <ul>
-                                            <li><a href="./signup.php" class="button primary"">Sign Up</a></li>
+                                            <li><a href="#" class="button primary"">Sign Up</a></li>
                                         </ul>
                                     </nav>
 				</header>
@@ -32,17 +32,26 @@ session_start();
 				<section id="banner">
                                     <form action="index.php" method="POST">
 					<div class="inner">
-                                            <h4>Sign in</h4>
-                                            
-                                                <input type="text" name="user_name" placeholder="ID number" style="background-color: #ffffff; color: #1c2021"/>
-                                                <br />
-                                                <input type="text" name="password" placeholder="Password" style="background-color: #ffffff; color: #1c2021"/>
-                                                <p style="color: red; visibility: visible" id="err_txt"></p>
-                                                <br />
+                                            <header>
+                                            <h2>Sign up</h2>
+                                            </header>
+                                            <h3>user id number</h3><input type="text" name="user_name" placeholder="ID number" style="background-color: #ffffff; color: #1c2021"/>
+                                            <br>
+                                            <h3>first name</h3><input type="text" name="user_name" placeholder="ID number" style="background-color: #ffffff; color: #1c2021"/>
+                                            <br>
+                                            <h3>middle name</h3><input type="text" name="user_name" placeholder="ID number" style="background-color: #ffffff; color: #1c2021"/>
+                                            <br>
+                                            <h3>last name</h3><input type="text" name="user_name" placeholder="ID number" style="background-color: #ffffff; color: #1c2021"/>
+                                            <br>
+                                            <h3>password</h3><input type="text" name="user_name" placeholder="ID number" style="background-color: #ffffff; color: #1c2021"/>
+                                            <br>
+                                            <h3>confirm password</h3><input type="text" name="user_name" placeholder="ID number" style="background-color: #ffffff; color: #1c2021"/>
+                                            <br>
+                                            <h3>account type</h3><input type="text" name="user_name" placeholder="ID number" style="background-color: #ffffff; color: #1c2021"/>
+                                            <br>
                                                 <ul class="buttons">
                                                     <li><input id="signin_button_id" type="submit" value="Sign in" name="signin_button"/></li>
-                                                </ul>       
-
+                                                </ul>
 					</div>
                                     </form>
 <!--*********************************************************************************************************-->

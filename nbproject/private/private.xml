@@ -5,6 +5,8 @@
         <group>
             <file>file:/C:/xampp/htdocs/Enrollment_sys_php/inc_php/db_conn_php.php</file>
             <file>file:/C:/xampp/htdocs/Enrollment_sys_php/index.php</file>
+            <file>file:/C:/xampp/htdocs/Enrollment_sys_php/assets/css/main.css</file>
+            <file>file:/C:/xampp/htdocs/Enrollment_sys_php/inc_php/query_lib_php.php</file>
         </group>
     </open-files>
 </project-private>
